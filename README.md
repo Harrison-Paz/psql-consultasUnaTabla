@@ -1,4 +1,4 @@
-# Solucionario de consultas a una sola tabla
+# Solucionario de consultas 
 
 > Solucionario de consultas a una base de datos  
 > Referencia: [ASIR / DAW - (Gestión de) Bases de datos](https://josejuansanchez.org/bd/ejercicios-consultas-sql/index.html#ejercicios.-realizaci%C3%B3n-de-consultas-sql)
@@ -6,7 +6,7 @@
 ## Modelo entidad/relacion
 ![dataBase_diagram](./dataBase.png)
 
-## Ejercicios
+## Ejercicios - Consultas sobre una tabla
 ---
 1. Lista el nombre de todos los productos que hay en la tabla producto.
 2. Lista los nombres y los precios de todos los productos de la tabla producto.
@@ -44,3 +44,19 @@
 34. Devuelve una lista con el nombre de todos los productos que contienen la cadena Portátil en el nombre.
 35. Devuelve una lista con el nombre de todos los productos que contienen la cadena Monitor en el nombre y tienen un precio inferior a 215 €.
 36. Lista el nombre y el precio de todos los productos que tengan un precio mayor o igual a 180€. Ordene el resultado en primer lugar por el precio (en orden descendente) y en segundo lugar por el nombre (en orden ascendente).
+
+## Ejercicios - Consultas multitabla (Composición interna)
+---
+1. Devuelve una lista con el nombre del producto, precio y nombre de fabricante de todos los productos de la base de datos.
+2. Devuelve una lista con el nombre del producto, precio y nombre de fabricante de todos los productos de la base de datos. Ordene el resultado por el nombre del fabricante, por orden alfabético.
+3. Devuelve una lista con el código del producto, nombre del producto, código del fabricante y nombre del fabricante, de todos los productos de la base de datos.
+4. Devuelve el nombre del producto, su precio y el nombre de su fabricante, del producto más barato.
+5. Devuelve el nombre del producto, su precio y el nombre de su fabricante, del producto más caro.
+6. Devuelve una lista de todos los productos del fabricante Lenovo.
+7. Devuelve una lista de todos los productos del fabricante Crucial que tengan un precio mayor que 200€.
+8. Devuelve un listado con todos los productos de los fabricantes Asus, Hewlett-Packardy Seagate. Sin utilizar el operador IN.
+9. Devuelve un listado con todos los productos de los fabricantes Asus, Hewlett-Packardy Seagate. Utilizando el operador IN.
+10. Devuelve un listado con el nombre y el precio de todos los productos de los fabricantes cuyo nombre termine por la vocal e.
+11. Devuelve un listado con el nombre y el precio de todos los productos cuyo nombre de fabricante contenga el carácter w en su nombre.
+12. Devuelve un listado con el nombre de producto, precio y nombre de fabricante, de todos los productos que tengan un precio mayor o igual a 180€. Ordene el resultado en primer lugar por el precio (en orden descendente) y en segundo lugar por el nombre (en orden ascendente)
+13. Devuelve un listado con el código y el nombre de fabricante, solamente de aquellos fabricantes que tienen productos asociados en la base de datos.
